@@ -2,7 +2,7 @@ version: '3'
 
 services:
   nginx:
-    image: nginx:stable-alpine
+    image: nginx:1.15.1
     container_name: nginx
     restart: on-failure
     volumes:
