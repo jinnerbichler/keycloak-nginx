@@ -23,8 +23,6 @@ services:
        - DB_PORT=5432
        - DB_DATABASE=keycloakdb
        - PROXY_ADDRESS_FORWARDING=true
-     ports:
-       - "8081:8080"
      depends_on:
        - keycloak-db
 
